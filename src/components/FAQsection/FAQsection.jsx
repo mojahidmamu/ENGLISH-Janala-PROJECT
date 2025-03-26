@@ -15,7 +15,7 @@ const FAQsection = () => {
               declaration, but they differ in scope and mutability: var is
               function-scoped and can be re-declared and updated, let is
               block-scoped and can be updated but not re-declared, and const is
-              block-scoped and cannot be re-declared or updated
+              block-scoped and cannot be re-declared or updated .
             </p>
           </div>
         </div>
@@ -29,7 +29,7 @@ const FAQsection = () => {
               {" "}
               forEach() will not return anything. forEach() returns undefined.
               filter() method will return an array of matching elements else
-              will return an empty array if no matching happens
+              will return an empty array if no matching happens.
             </p>
           </div>
         </div>
@@ -40,7 +40,13 @@ const FAQsection = () => {
             functions ?
           </div>
           <div className="collapse-content">
-            <p>hello</p>
+            <p>
+              Arrow functions, introduced in ES6, provide a concise syntax for
+              writing functions in JavaScript, often used for simple
+              expressions, while regular functions offer more flexibility and
+              traditional syntax, including the ability to use this and
+              arguments in a dynamic way.
+            </p>
           </div>
         </div>
         <div className="collapse collapse-arrow bg-base-200">
