@@ -10,9 +10,9 @@ const Footer = () => {
       <aside>
         <img className="w-50 h-50 fill-current" src={logo} alt="" />
         <p>
-          ACME Industries Ltd.
+           English Learning with Abdullah all Mojahid (B.Sc in English) from DU.
           <br />
-          Providing reliable tech since 1992
+          Providing reliable tech since 1752...
         </p>
       </aside>
       <nav>
