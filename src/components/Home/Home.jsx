@@ -62,7 +62,7 @@ const Home = () => {
             </label>
           </div>
           <div className="form-control mt-6">
-            <Link to='/newUser '>
+            <Link to='/newUser'>
               <button className="btn btn-primary">Login</button>
             </Link>
           </div>

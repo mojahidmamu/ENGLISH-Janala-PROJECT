@@ -1,6 +1,7 @@
-import React from "react";
+import { useState } from "react";
 
 const NewUser = () => {
+  const [isOpen, setIsOpen] = useState(false);
   return (
     <div
       className="hero min-h-screen"
@@ -12,13 +13,30 @@ const NewUser = () => {
       <div className="hero-overlay bg-opacity-60"></div>
       <div className="hero-content text-neutral-content text-center">
         <div className="max-w-md">
-          <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
-          <p className="mb-5">
-            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-            excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
-            a id nisi.
-          </p>
-          <button className="btn btn-primary">Get Started</button>
+          <h1 className="mb-2 text-5xl font-bold">Welcome ! </h1> <br />
+          <h4 className="font-bold mb-3">You are new user in this page...</h4>
+          <p className="mb-5">you are in a job & internship placeholder</p>
+          {/* Button */}
+          <button className="btn btn-primary" onClick={() => setIsOpen(true)}>
+            Reception
+          </button>
+          {/* Modal */}
+          {isOpen && (
+            <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
+              <div className="text-red-600 p-6 rounded-lg shadow-lg w-96">
+                <p className="mb-4 text-green-500">
+                  Are you happy ? Tell your friend about this.
+                </p>
+                <h2 className="text-5xl font-bold mb-4 ">Hurrrah ! </h2>
+                <button
+                  className="btn btn-secondary"
+                  onClick={() => setIsOpen(false)}
+                >
+                  Satisfied & close
+                </button>
+              </div>
+            </div>
+          )}
         </div>
       </div>
     </div>
