@@ -10,12 +10,10 @@ const Navbar = () => {
     <>
       <div>
         {/* Button -01 */}
-        <div className="flex flex-row gap-1 border-2 p-1 rounded-lg">
-          <img className="w-auto h-10" src={FaqImg} alt="" />
+        <div className="flex flex-row items-center gap-2 border-2 p-1 rounded-lg">
+          <img className="w-7 h-7" src={FaqImg} alt="" />
           <Link to="/FAQsection">
-            <li>
-              <a className="font-bold">FAQ</a>{" "}
-            </li>
+            <li className="font-bold">FAQ</li>
           </Link>
         </div>
         {/* Button -02 */}
@@ -65,7 +63,7 @@ const Navbar = () => {
         <ul className="menu menu-horizontal px-1">{navLinks}</ul>
       </div>
       <div className="navbar-end">
-        <Link to='/'>
+        <Link to="/">
           {" "}
           <button className="btn btn-outline mr-2">Home</button>
         </Link>
