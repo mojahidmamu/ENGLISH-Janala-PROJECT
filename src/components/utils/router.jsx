@@ -4,6 +4,7 @@ import Home from "../Home/Home";
 import FAQsection from "../FAQsection/FAQsection";
 import Learn from "../Learn/Learn";
 import LogOut from "../LogOut/LogOut";
+import NewUser from "../NewUser/NewUser";
 
 const router = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <LogOut></LogOut>
+      },
+      {
+        path: '/newUser',
+        element: <NewUser></NewUser>
       }
     ],
   },
