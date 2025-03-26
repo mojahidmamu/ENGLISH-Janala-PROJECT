@@ -3,7 +3,7 @@ import SideImg from "../../assets/assets/hero-student.png";
 const FAQsection = () => {
   return (
     <div className="flex justify-around items-center ml-36 mt-3 gap-10">
-      <div>
+      <div className="w-4/5">
         <div className="collapse collapse-arrow bg-base-200">
           <input type="radio" name="my-accordion-2" defaultChecked />
           <div className="collapse-title text-xl font-medium">
@@ -22,7 +22,8 @@ const FAQsection = () => {
         <div className="collapse collapse-arrow bg-base-200">
           <input type="radio" name="my-accordion-2" />
           <div className="collapse-title text-xl font-medium">
-            What is the difference between map(), forEach(), <br /> and filter() ?
+            What is the difference between map(), forEach(), <br /> and filter()
+            ?
           </div>
           <div className="collapse-content">
             <p>
@@ -79,7 +80,7 @@ const FAQsection = () => {
       </div>
       {/* Image */}
       <div>
-        <img className="h-auto w-1/2 ml-7" src={SideImg} alt="" />
+        <img className="h-auto w-1/2 ml-20 " src={SideImg} alt="" />
       </div>
     </div>
   );
