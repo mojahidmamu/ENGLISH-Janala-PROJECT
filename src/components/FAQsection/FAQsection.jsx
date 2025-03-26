@@ -87,3 +87,4 @@ const FAQsection = () => {
 };
 
 export default FAQsection;
+{/* <img src={logo} alt="" /> */}
