@@ -7,7 +7,7 @@ const FAQsection = () => {
         <div className="collapse collapse-arrow bg-base-200">
           <input type="radio" name="my-accordion-2" defaultChecked />
           <div className="collapse-title text-xl font-medium">
-            The difference between var, let, and const ?
+            What is the difference between var, let, and const ?
           </div>
           <div className="collapse-content">
             <p>
@@ -22,7 +22,7 @@ const FAQsection = () => {
         <div className="collapse collapse-arrow bg-base-200">
           <input type="radio" name="my-accordion-2" />
           <div className="collapse-title text-xl font-medium">
-            The difference between map(), forEach(), <br /> and filter() ?
+            What is the difference between map(), forEach(), <br /> and filter() ?
           </div>
           <div className="collapse-content">
             <p>
