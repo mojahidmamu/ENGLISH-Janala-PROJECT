@@ -25,7 +25,12 @@ const FAQsection = () => {
             The difference between map(), forEach(), <br /> and filter() ?
           </div>
           <div className="collapse-content">
-            <p>hello</p>
+            <p>
+              {" "}
+              forEach() will not return anything. forEach() returns undefined.
+              filter() method will return an array of matching elements else
+              will return an empty array if no matching happens
+            </p>
           </div>
         </div>
         <div className="collapse collapse-arrow bg-base-200">
