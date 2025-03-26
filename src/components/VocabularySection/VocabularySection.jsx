@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 
-const Learn = () => {
+const VocabularySection = () => {
   const [lessons, setLessons] = useState([]);
   const [words, setWords] = useState([]);
   const [activeLesson, setActiveLesson] = useState(null);
@@ -147,4 +147,4 @@ const Learn = () => {
   );
 };
 
-export default Learn;
+export default VocabularySection;

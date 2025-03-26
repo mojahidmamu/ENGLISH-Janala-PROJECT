@@ -2,9 +2,9 @@ import { createBrowserRouter } from "react-router-dom";
 import MainLayout from "../MainLayout/MainLayout";
 import Home from "../Home/Home";
 import FAQsection from "../FAQsection/FAQsection";
-import Learn from "../Learn/Learn";
 import LogOut from "../LogOut/LogOut";
 import NewUser from "../NewUser/NewUser";
+import VocabularySection from "../VocabularySection/VocabularySection";
 
 const router = createBrowserRouter([
   {
@@ -16,21 +16,21 @@ const router = createBrowserRouter([
         element: <Home></Home>,
       },
       {
-        path: '/FAQsection',
-        element: <FAQsection></FAQsection>
+        path: "/FAQsection",
+        element: <FAQsection></FAQsection>,
       },
       {
-        path: '/learn',
-        element: <Learn></Learn>
+        path: "/VocabularySection",
+        element: <VocabularySection></VocabularySection>,
       },
       {
-        path: '/',
-        element: <LogOut></LogOut>
+        path: "/",
+        element: <LogOut></LogOut>,
       },
       {
-        path: '/newUser',
-        element: <NewUser></NewUser>
-      }
+        path: "/newUser",
+        element: <NewUser></NewUser>,
+      },
     ],
   },
 ]);
