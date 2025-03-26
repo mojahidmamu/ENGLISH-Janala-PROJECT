@@ -6,7 +6,7 @@ import youtube from "../../assets/assets/youtube-thumb.png";
 
 const Footer = () => {
   return (
-    <footer className="footer bg-neutral text-neutral-content p-10 flex justify-around items-center">
+    <footer className="footer bg-neutral text-neutral-content p-10 flex justify-around items-center mt-10">
       <aside>
         <img className="w-50 h-50 fill-current" src={logo} alt="" />
         <p>

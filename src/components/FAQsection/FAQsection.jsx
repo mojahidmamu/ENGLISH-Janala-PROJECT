@@ -2,7 +2,7 @@ import SideImg from "../../assets/assets/hero-student.png";
 
 const FAQsection = () => {
   return (
-    <div className="flex justify-around items-center ml-36 mt-3 gap-10">
+    <div className="flex justify-around items-center ml-36 mt-6 gap-10">
       <div className="w-4/5">
         <div className="collapse collapse-arrow bg-base-200">
           <input type="radio" name="my-accordion-2" defaultChecked />
