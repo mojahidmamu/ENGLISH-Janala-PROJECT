@@ -55,7 +55,13 @@ const FAQsection = () => {
             How JavaScript Promises work ?
           </div>
           <div className="collapse-content">
-            <p>hello</p>
+            <p>
+              A promise is an object returned by an asynchronous function, which
+              represents the current state of the operation. At the time the
+              promise is returned to the caller, the operation often isn't
+              finished, but the promise object provides methods to handle the
+              eventual success or failure of the operation.
+            </p>
           </div>
         </div>
         <div className="collapse collapse-arrow bg-base-200">
