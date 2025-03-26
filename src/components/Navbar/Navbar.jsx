@@ -23,6 +23,13 @@ const Navbar = () => {
             <li className="font-bold">Learn</li>
           </Link>
         </div>
+        {/* Button- 03 */}
+        <div className="flex flex-row items-center gap-2 border-2 p-1 rounded-lg">
+          <img className="w-7 h-7" src={LogOutImg} alt="" />
+          <Link to="/logout">
+            <li className="font-bold">Log Out</li>
+          </Link>
+        </div>
       </div>
 
       {/* FAQ, Learn, and Logout */}

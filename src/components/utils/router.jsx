@@ -3,6 +3,7 @@ import MainLayout from "../MainLayout/MainLayout";
 import Home from "../Home/Home";
 import FAQsection from "../FAQsection/FAQsection";
 import Learn from "../Learn/Learn";
+import LogOut from "../LogOut/LogOut";
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
       {
         path: '/learn',
         element: <Learn></Learn>
+      },
+      {
+        path: '/',
+        element: <LogOut></LogOut>
       }
     ],
   },
