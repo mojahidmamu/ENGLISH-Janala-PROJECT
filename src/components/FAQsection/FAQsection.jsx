@@ -70,7 +70,10 @@ const FAQsection = () => {
             How closures work in JavaScript ?
           </div>
           <div className="collapse-content">
-            <p>hello</p>
+            <p>
+              Each closure references a different version of the privateCounter
+              variable through its own closure.
+            </p>
           </div>
         </div>
       </div>
