@@ -1,4 +1,5 @@
 import React from "react";
+import logo from '../../assets/assets/logo.png'
 
 const Footer = () => {
   return (
@@ -47,7 +48,7 @@ const Footer = () => {
             </svg>
           </a>
           <a>
-            <img src="" alt="" />
+            <img src={logo} alt="" />
           </a>
         </div>
       </nav>
