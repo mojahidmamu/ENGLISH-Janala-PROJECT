@@ -12,14 +12,13 @@ const Navbar = () => {
         {/* Button -01 */}
         <div className="flex flex-row gap-1 border-2 p-1 rounded-lg">
           <img className="w-auto h-10" src={FaqImg} alt="" />
-          <Link to='/FAQsection'>
+          <Link to="/FAQsection">
             <li>
               <a className="font-bold">FAQ</a>{" "}
             </li>
           </Link>
         </div>
         {/* Button -02 */}
-
       </div>
 
       {/* FAQ, Learn, and Logout */}
@@ -66,7 +65,16 @@ const Navbar = () => {
         <ul className="menu menu-horizontal px-1">{navLinks}</ul>
       </div>
       <div className="navbar-end">
-        <a className="btn">Button</a>
+        <Link to='/'>
+          {" "}
+          <button className="btn btn-outline mr-2">Home</button>
+        </Link>
+        <a className="btn">
+          <h1 className="font-bold text-2xl gap-4">
+            FOUR<span className="text-red-400 underline">TEEN</span>{" "}
+            <span className="text-4xl text-amber-400">E</span>nglish
+          </h1>
+        </a>
       </div>
     </div>
   );
