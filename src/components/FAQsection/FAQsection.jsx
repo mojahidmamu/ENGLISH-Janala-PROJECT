@@ -16,7 +16,7 @@ const FAQsection = () => {
         <div className="collapse collapse-arrow bg-base-200">
           <input type="radio" name="my-accordion-2" />
           <div className="collapse-title text-xl font-medium">
-            The difference between map(), forEach(), and filter() ?
+            The difference between map(), forEach(), <br /> and filter() ?
           </div>
           <div className="collapse-content">
             <p>hello</p>
