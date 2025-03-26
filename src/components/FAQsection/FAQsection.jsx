@@ -10,7 +10,13 @@ const FAQsection = () => {
             The difference between var, let, and const ?
           </div>
           <div className="collapse-content">
-            <p>hello</p>
+            <p>
+              In JavaScript, var, let, and const are used for variable
+              declaration, but they differ in scope and mutability: var is
+              function-scoped and can be re-declared and updated, let is
+              block-scoped and can be updated but not re-declared, and const is
+              block-scoped and cannot be re-declared or updated
+            </p>
           </div>
         </div>
         <div className="collapse collapse-arrow bg-base-200">
