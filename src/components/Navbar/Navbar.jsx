@@ -1,6 +1,26 @@
 import React from "react";
+import Navlogo from "../../assets/assets/logo.png";
+import FaqImg from "../../assets/assets/fa-circle-question.png";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
+  const navLinks = (
+    <>
+      <div>
+        {/* Button -01 */}
+        <div className="flex flex-row gap-1 border-2 p-1 rounded-lg">
+          <img className="w-auto h-10" src={FaqImg} alt="" />
+          <Link>
+            <li>
+              <a className="font-bold">FAQ</a>{" "}
+            </li>
+          </Link>
+        </div>
+      </div>
+
+      {/* FAQ, Learn, and Logout */}
+    </>
+  );
   return (
     <div className="navbar bg-base-100">
       <div className="navbar-start">
@@ -25,49 +45,21 @@ const Navbar = () => {
             tabIndex={0}
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
           >
-            <li>
-              <a>Item 1</a>
-            </li>
-            <li>
-              <a>Parent</a>
-              <ul className="p-2">
-                <li>
-                  <a>Submenu 1</a>
-                </li>
-                <li>
-                  <a>Submenu 2</a>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <a>Item 3</a>
-            </li>
+            {navLinks}
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl">daisyUI</a>
+        <div>
+          <a className="btn btn-ghost text-xl">
+            <img src={Navlogo} alt="" />
+            <h1 className="font-bold text-2xl gap-4">
+              ENG<span className="text-green-400">LISH</span>{" "}
+              <span className="text-3xl text-orange-500">L</span>earning
+            </h1>
+          </a>
+        </div>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">
-          <li>
-            <a>Item 1</a>
-          </li>
-          <li>
-            <details>
-              <summary>Parent</summary>
-              <ul className="p-2">
-                <li>
-                  <a>Submenu 1</a>
-                </li>
-                <li>
-                  <a>Submenu 2</a>
-                </li>
-              </ul>
-            </details>
-          </li>
-          <li>
-            <a>Item 3</a>
-          </li>
-        </ul>
+        <ul className="menu menu-horizontal px-1">{navLinks}</ul>
       </div>
       <div className="navbar-end">
         <a className="btn">Button</a>
