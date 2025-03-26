@@ -1,6 +1,8 @@
 import React from "react";
 import Navlogo from "../../assets/assets/logo.png";
 import FaqImg from "../../assets/assets/fa-circle-question.png";
+import LearnImg from "../../assets/assets/fa-book-open.png";
+import LogOutImg from "../../assets/assets/fa-arrow-right-from-bracket.png";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -10,12 +12,14 @@ const Navbar = () => {
         {/* Button -01 */}
         <div className="flex flex-row gap-1 border-2 p-1 rounded-lg">
           <img className="w-auto h-10" src={FaqImg} alt="" />
-          <Link>
+          <Link to='/FAQsection'>
             <li>
               <a className="font-bold">FAQ</a>{" "}
             </li>
           </Link>
         </div>
+        {/* Button -02 */}
+
       </div>
 
       {/* FAQ, Learn, and Logout */}
