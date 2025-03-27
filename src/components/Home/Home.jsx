@@ -10,6 +10,9 @@ const Home = () => {
           "url(https://img.daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.webp)",
       }}
     >
+      <h1 className="font-bold text-center my-3 text-2xl text-orange-600">
+        <span className="text-green-700">Welcome </span>to My Project
+      </h1>
       <div className="card bg-base-100 w-1/2 max-w-sm shrink-0 shadow-2xl">
         <form className="card-body">
           <div className="form-control">

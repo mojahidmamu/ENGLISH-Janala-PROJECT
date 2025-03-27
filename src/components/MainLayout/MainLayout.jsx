@@ -8,9 +8,6 @@ const MainLayout = () => {
   return (
     <div>
       <Navbar></Navbar>
-      <h1 className="font-bold text-center my-3 text-2xl text-orange-600">
-        <span className="text-green-700">Welcome </span>to My Project
-      </h1>
       <Outlet></Outlet>
       <FinancialDashboard></FinancialDashboard>
       <OngoingProject></OngoingProject>
