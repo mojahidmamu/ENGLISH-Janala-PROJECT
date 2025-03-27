@@ -11,7 +11,7 @@ const FinancialDashboard = () => {
     const amount = parseInt(document.getElementById("add-amount").value);
     if (amount > 0) {
       setTotalBalance(prev => prev + amount);
-      setHistory([...history, `Added ৳${amount}`]);
+      setHistory([...history, `Added money ৳${amount}`]);
     }
   };
 
