@@ -2,6 +2,7 @@ import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar";
 import { Outlet } from "react-router-dom";
 import OngoingProject from "../OngoingProject/OngoingProject";
+import FinancialDashboard from "../Nagad/FinancialDashboard";
 
 const MainLayout = () => {
   return (
@@ -11,6 +12,7 @@ const MainLayout = () => {
         <span className="text-green-700">Welcome </span>to My Project
       </h1>
       <Outlet></Outlet>
+      <FinancialDashboard></FinancialDashboard>
       <OngoingProject></OngoingProject>
       <Footer></Footer>
     </div>
