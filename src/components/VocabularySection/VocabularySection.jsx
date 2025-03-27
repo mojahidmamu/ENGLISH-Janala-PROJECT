@@ -138,7 +138,7 @@ const VocabularySection = () => {
               className="px-4 py-2 bg-blue-500 text-white rounded-lg"
               onClick={() => setSelectedWord(null)}
             >
-              Close
+              Completing Learning
             </button>
           </div>
         </div>
