@@ -14,7 +14,8 @@ const VocabularySection = () => {
     const fetchLessons = async () => {
       try {
         const response = await fetch(
-          "https://openapi.programming-hero.com/api/levels/all");
+          "https://openapi.programming-hero.com/api/levels/all"
+        );
         const data = await response.json();
         setLessons(data.data);
       } catch (error) {
