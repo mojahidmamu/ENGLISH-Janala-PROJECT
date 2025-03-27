@@ -7,8 +7,11 @@ const MainLayout = () => {
   return (
     <div>
       <Navbar></Navbar>
-      <OngoingProject></OngoingProject>
+      <h1 className="font-bold text-center my-3 text-2xl text-orange-600">
+        <span className="text-green-700">Welcome </span>to My Project
+      </h1>
       <Outlet></Outlet>
+      <OngoingProject></OngoingProject>
       <Footer></Footer>
     </div>
   );

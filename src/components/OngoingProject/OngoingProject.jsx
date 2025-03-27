@@ -1,6 +1,6 @@
 const OngoingProject = () => {
   return (
-    <div className="p-6 bg-gray-100 rounded-lg shadow-md">
+    <div className="p-6 bg-gray-100 rounded-lg shadow-md mb-5">
       <h2 className="text-2xl font-bold text-gray-800 mb-4">Ongoing Project</h2>
       <div className="bg-white p-4 rounded-lg shadow-sm">
         <h3 className="text-xl font-semibold text-blue-600">
