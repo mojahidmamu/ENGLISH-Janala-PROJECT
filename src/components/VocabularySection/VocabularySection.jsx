@@ -1,6 +1,7 @@
 // export default Learn;
 
 import React, { useEffect, useState } from "react";
+import LoadingSpinner from "../LoadingSpinner/LoadingSpinner";
 
 const VocabularySection = () => {
   const [lessons, setLessons] = useState([]);
@@ -120,6 +121,8 @@ const VocabularySection = () => {
           <p className="text-gray-700">No words found for this lesson.</p>
         )}
       </div>
+      {/*  */}
+      <LoadingSpinner></LoadingSpinner>
 
       {/* Word Details Modal */}
       {selectedWord && (
