@@ -10,7 +10,6 @@ const Home = () => {
           "url(https://img.daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.webp)",
       }}
     >
-      
       <div className="card bg-base-100 w-1/2 max-w-sm shrink-0 shadow-2xl">
         <form className="card-body">
           <div className="form-control">
